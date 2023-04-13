@@ -1,0 +1,84 @@
+.addresSection{
+    display: flex;
+}
+.allContactsContainer{
+    display: flex;
+    padding-top:15px;
+    padding-bottom:25px;
+}
+.allContactsContainerLeft{
+    width: 50%;
+}
+.allContactsContainerRight {
+    width: 50%;
+    /*justify-content:flex-end;*/
+}
+.allContactsContainerTitles{
+    font-size:20px;
+    color: #4f4f4f;
+    font-weight:700;
+}
+.containerTitleWrapper{
+    width:100%;
+    display: flex;
+    padding-bottom: 15px;
+
+}
+
+.containerTitleWrapTitle{
+    width:25%
+}
+.containerTitleWrapTitleAddress{
+    width:75%;
+    padding-top: 5px;
+    font-weight: 500;
+    text-align: start;
+}
+.containerTitleWrapTitleAddress a{
+    color: rgb(0, 0, 0);
+    transition: color .2s linear;
+    cursor: pointer;
+    font-size: 12px;
+}
+.containerTitleWrapTitleAddress span{
+
+    font-size: 12px;
+}
+.containerTitleWrapTitleAddress a svg{
+    font-size: 18px;
+    margin: 0 5px 5px 5px;
+}
+.containerTitleWrapTitleAddress a:hover{
+    color: #f3b93e;
+
+}
+.faMapMarkerAlt{
+    color: red;
+}
+
+@media (max-width: 1201px){
+
+    .containerTitleWrapTitle{
+        width:100%
+    }
+    .containerTitleWrapTitleAddress{
+        width:100%;
+        text-align: -webkit-center;
+    }
+    .containerTitleWrapper{
+        width:100%;
+        display: block;
+        text-align: -webkit-center;
+    }
+
+    .containerTitleWrapTitleAddress{
+        display:grid;
+    }
+}
+
+@media (max-width: 440px){
+    .containerTitleWrapTitleAddress a svg{
+        font-size: 16px;
+        margin: 0 0px 0px 5px;
+    }
+}

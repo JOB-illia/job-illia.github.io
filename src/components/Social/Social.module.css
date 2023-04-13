@@ -1,0 +1,27 @@
+.socialIconsContainer a {
+    color: #aeb0b5 !important;
+}
+
+
+.socialIconsContainer {
+
+    padding-left:10px;
+    padding-bottom: 6px;
+    font-size: 25px;
+    color: #aeb0b5;;
+    transition: color .2s linear
+}
+
+.instagram:hover {
+    color: #f3b93e;
+}
+
+.facebook:hover {
+    color: #f3b93e;
+    text-decoration: none
+}
+.telegram:hover {
+    color: #f3b93e;
+    text-decoration: none
+}
+

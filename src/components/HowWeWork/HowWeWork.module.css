@@ -1,0 +1,78 @@
+.bgColor {
+    background-color: #f3b93e;
+    padding-bottom: 25px;
+}
+
+.allWorkContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainWorkTitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 35px;
+    color: #ededed;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.workSubContainer {
+    width: 25%;
+    padding: 0 30px;
+    margin: 25px 0;
+}
+
+.workSubIcon svg {
+    font-size: 40px;
+}
+
+.workSubtitle {
+    padding-top: 14px;
+    color: #50493d;
+    font-size: 19px;
+    padding-bottom: 5px;
+    cursor: default;
+    font-family: 'Exo 2', sans-serif;
+    transition: color .3s linear
+}
+
+.workSubtitle:hover {
+    color: #f1f1f1;
+
+
+}
+
+.workSubText {
+    color: #202020;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: default;
+    font-family: 'Exo 2', sans-serif;
+}
+
+@media (max-width: 993px) {
+    .workSubContainer {
+        width: 50%;
+    }
+    .mainWorkTitle {
+        font-size: 25px;
+        padding-bottom: 5px;
+        padding-top: 25px;
+    }
+    .workSubIcon svg {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 541px) {
+    .workSubContainer {
+        width: 100%;
+    }
+    .mainWorkTitle {
+        font-size: 20px;
+        padding-bottom: 2px;
+        padding-top: 25px;
+    }
+}

@@ -1,0 +1,15 @@
+a:hover {
+    text-decoration: none !important;
+}
+.wrapper-route{
+    padding-top: 20px;
+}
+.navbar-light .navbar-toggler {
+    border-color: #ffb03e9c !important
+}
+
+@media (max-width: 450px){
+    ol.carousel-indicators{
+        display: none;
+    }
+}

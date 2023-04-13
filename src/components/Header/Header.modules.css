@@ -1,0 +1,39 @@
+/*Header background*/
+
+#root > div > div > nav {
+    background-color: rgba(91, 91, 91, .9);
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    top: 0;
+}
+/*Header nav*/
+.nav-Custom{
+    font-size:15px;
+}
+#responsive-navbar-nav > div a {
+    transition: color .3s linear;
+    color: #cccccc;
+}
+#responsive-navbar-nav > div a:hover {
+    color: #f3b93e;
+}
+
+
+.NavLogoTitle {
+    padding-top: 21px;
+    color:#ffb03e;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.containerLogoTitleFlex {
+    display: flex;
+}
+@media (max-width: 450px){
+    .NavLogoTitle {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,27 @@
+.workPhotoAlbumContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.workPhotoAlbumImg img{
+    width: 350px;
+    padding:5px;
+}
+
+.photoFromWorkBtn{
+    display: inline-block;
+    background: rgb(255, 176, 62);
+    color: #000000;
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+.photoFromWorkBtn:hover{
+    background: rgb(231, 160, 43);
+    color: #000000;
+}

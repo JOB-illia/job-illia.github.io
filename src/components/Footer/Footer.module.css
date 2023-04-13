@@ -1,0 +1,79 @@
+.footerSection {
+    width: 100%;
+    background-color: #212121
+}
+
+.footerSocial {
+    display: flex;
+    padding-top: 25px;
+}
+
+.footerSocialLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%
+}
+
+.phoneTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+.footerSocialRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 50%;
+    right: 0;
+}
+
+.socialTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+.footerAddress {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    color: #cccccc;
+}
+.addressIcon{
+    margin-right: 10px;
+}
+.footerAddress svg {
+    color: #ff0000;
+    font-size: 16px;
+}
+
+.footerAddressTitle {
+    margin: 20px 0 30px 0;
+    font-size: 12px;
+}
+
+.footerAuthor{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #cccccc;
+    font-size: 10px;
+}
+.footerAuthor div {
+    line-height:0;
+}
+@media (max-width: 535px){
+    .footerSocialLeft {
+        display: block;
+    }
+    .footerSocialRight {
+        display: block;
+    }
+    .footerSocial {
+        text-align: center;
+    }
+
+}
